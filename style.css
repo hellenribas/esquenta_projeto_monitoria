@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+#header {
+  background-color: #384835;
+  color: #FFFFFF;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+}
+
+.li a {
+  color: #FFFFFF;
+}
+
+.ul, .li {
+  display: inline-block;
+}
+
+.li {
+  padding: 7px 10px;
+}
+
+#header h1 {
+  padding-top: 5px;
+}
+
+.img_container img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.animal_article {
+  width: 500px;
+  height: 350px;
+}
+
+.left {
+  width: 70%;
+  float: left;
+}
+
+.right {
+  width: 28%;
+  float: right;
+}
+
+.footer {
+  clear: both;
+  text-align: center;
+  background-color: #384835;
+  color: #FFFFFF;
+}
+
+.left article, .left table {
+  text-align: center;
+}
+
+.left table {
+  margin-left: 35%;
+}
+
+.right {
+  text-align: center;
+  border: double #6c8c69 8px;
+  border-right: none;
+  background-color: #c6c7c0;
+  margin-top: 4%;
+}
+
+.right img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
